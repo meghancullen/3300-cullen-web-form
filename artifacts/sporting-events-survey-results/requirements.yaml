@@ -1,0 +1,9 @@
+packages:
+  "recharts": "For rendering beautiful data visualizations on the results page"
+  "framer-motion": "For page transitions and smooth UI animations"
+  "canvas-confetti": "For celebratory effect on the thank you page"
+  "@types/canvas-confetti": "Types for canvas-confetti"
+
+notes:
+  - Supabase client will be initialized using VITE_SUPABASE_URL and VITE_SUPABASE_ANON_KEY.
+  - The frontend accesses the Supabase DB directly, requiring RLS policies to be set up.
